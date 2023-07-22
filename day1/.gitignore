@@ -1,0 +1,4 @@
+solution_v1
+solution_v2
+quickSort/test_quick_sort.*
+./**/*.o
