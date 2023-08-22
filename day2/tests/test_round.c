@@ -2,9 +2,9 @@
 #include "../round.h" 
 
 int main() { 
-  round round_draw_test = make_round(C, Z);
-  round round_lost_test = make_round(C, X);
-  round round_won_test = make_round(C, Y);
+  round round_draw_test = make_round(Y, A);
+  round round_lost_test = make_round(X, B);
+  round round_won_test = make_round(Z, C);
 
   printf("%d, %d, %d", result_round(&round_draw_test),result_round(&round_lost_test), result_round(&round_won_test)); 
   return 0; 
